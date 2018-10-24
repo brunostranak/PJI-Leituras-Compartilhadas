@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+//teste commit
 //libs obrigatorias
 require_once 'bibliotecas/mysqli.php';
 require_once 'bibliotecas/visao.php';
