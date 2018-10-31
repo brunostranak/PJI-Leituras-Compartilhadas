@@ -27,7 +27,7 @@ PRIMARY KEY (idObra)
 CREATE TABLE tblEmprestimos(
 idEmprestimo INT AUTO_INCREMENT,
 idObra INT,
-dono VARCHAR(60),
+donoa VARCHAR(60),
 cliente VARCHAR(60),
 
 PRIMARY KEY(idEmprestimo),
