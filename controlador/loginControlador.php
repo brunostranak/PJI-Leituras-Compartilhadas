@@ -1,18 +1,14 @@
 <?php
 
-require "modelo/loginModelo.php";
+require "/modelo/loginModelo.php";
+
+
+
 
 
 
 
 function index (){
-
-exibir("login/formulario");
-
-}
-
-
-function logar ($prontuario,$senha){
 
 
 if (ehPost()) {
@@ -21,7 +17,7 @@ if (ehPost()) {
         redirecionar("");
     } else {
 
-        exibir("usuario/formulario");
+        exibir("login/formulario");
     }
 
 }
