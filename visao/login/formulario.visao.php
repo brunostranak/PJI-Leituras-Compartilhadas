@@ -9,12 +9,14 @@
 
   <h1>LOGIN</h1>
   
- <input type="text" placeholder="PRONTUÁRIO">
+  <form method="post" action="">
+  
+ <input type="text" placeholder="PRONTUÁRIO" name="prontuario">
  <br>
- <input type="password" placeholder="SENHA">
+ <input type="password" placeholder="SENHA" name="senha">
  <br>
  <input type="submit" value="enviar">
- 
+  </form>
 <style>
 
 
